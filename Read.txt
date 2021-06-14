@@ -1,0 +1,19 @@
+>For each sample, you need to do a folder, put the 2 fastq files of this
+sample, and you need to copy this folders inside:
+-fasta_files
+-Rscripts
+-Analysis_TCRseq.sh
+fill the section "Fill or modify" in the script "Analysis_TCRseq.sh" and run it!
+This will generate the Result table file with characteristics of the 
+clonotypes and genarate these graphics: 
+    -
+
+>If you want to compare two conditions doing the graphics, you need to do a new 
+folder and copy inside:
+    -Two results table files (the name is like: vdjtools.PREFIX_NAME-clones_2.txt)
+    -Graphics_two_conditions folder
+    -Graphics_two_conditions.sh 
+fill the section "Fill or modify" in the script "Graphics_two_conditions.sh" and run it!.
+
+
+Ariel Galindo
